@@ -1,5 +1,11 @@
 # TIC TAC TOE
 
+
+
+## Deploy
+Project Console: https://console.firebase.google.com/project/tic-tac-toe-5a146/overview
+Hosting URL: https://tic-tac-toe-5a146.web.app
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
 ## Development server
