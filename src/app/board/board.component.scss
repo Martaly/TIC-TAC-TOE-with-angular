@@ -1,0 +1,53 @@
+.all{
+    background: linear-gradient(135deg, #2D3033, #161518);
+    height:55em;
+    width:45em;
+    display: flex;
+    justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+;}
+main {
+    display:grid;
+    grid-template-columns: 10em 10em 10em;
+    grid-gap:5px;
+
+}
+
+app-square{
+    //border: 1px #E7DACA solid;
+    height: 10em;
+    width: 10em;
+}
+h1{
+    position: relative;
+    text-align: center;
+    color: #E7DACA;
+    border-radius: 10px;
+    box-shadow:  20px 20px 60px #09080a, 
+    -20px -20px 60px #232226;
+        padding:1em;
+    width:13em;
+    margin-bottom: 2em;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        display: flex;
+        justify-content: center;
+        color: green;
+        text-shadow: 0px 0px 0px #5B8195, 0 0 1em #5B8195, 0 0 0.2em #5B8195;}
+    button{
+        height:3em;
+        width:8em;
+        margin-bottom: 1.5em;
+        border-radius:5px;
+        border:1px solid #25335D;
+        background: linear-gradient(45deg,#1A2441, #25335D );
+        color: #E7DACA;
+        
+    }
+}
